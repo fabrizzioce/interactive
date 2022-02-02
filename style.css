@@ -1,0 +1,56 @@
+/* this is a universal selector. This is used to select all elements, and get rid of all defaults */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;;
+}
+
+#grad1 {
+  background-image: linear-gradient(to right, #C342B4,#6877BD,#00B7C7);
+  margin:25px,25px,0px,0px;
+  padding:35px;
+  color: #F2F2F2;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  margin:20px;
+}
+
+#list1 {
+  padding: 20px 20px 30px 70px;
+}
+
+#list2 {
+  padding: 20px 20px 20px 70px;
+}
+
+h2.one{
+  margin-left: 25px;
+  border-left: 8px solid #C61F69;
+  padding-left: 10px
+}
+
+h2.two {
+  margin-left: 25px;
+  border-left: 8px solid #00C7D7;
+  padding-left: 10px
+}
+
+a.class:link, a.class:visited {
+  background-color: #f44336;
+  color: white;
+  border-radius: 30px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.class:hover, a.class:active {
+  background-color: red;
+}
