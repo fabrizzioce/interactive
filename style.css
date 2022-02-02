@@ -21,6 +21,8 @@ img{
   margin:20px;
 }
 
+/* Ordered lists */
+
 #list1 {
   padding: 20px 20px 30px 70px;
 }
@@ -29,15 +31,17 @@ img{
   padding: 20px 20px 20px 70px;
 }
 
+
+
 h2.one{
   margin-left: 25px;
-  border-left: 8px solid #C61F69;
+  border-left: 9px solid #C61F69;
   padding-left: 10px
 }
 
 h2.two {
   margin-left: 25px;
-  border-left: 8px solid #00C7D7;
+  border-left: 9px solid #00C7D7;
   padding-left: 10px
 }
 
