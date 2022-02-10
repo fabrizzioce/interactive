@@ -10,12 +10,19 @@ body {
   margin-right: 200px;
   padding-left: 100px;
   padding-right: 100px;
+  background-color: #f0f0f0;
+}
+
+#div {
+  padding: 50px;
+  background-color: #008be8;
+  border-radius: 40px;
+  color: white;
 }
 
 
-
 a.class:link, a.class:visited {
-  background-color: #6937B6;
+  background-color: #008be8;
   color: white;
   border-radius: 30px;
   padding: 13px 61px;
@@ -25,11 +32,11 @@ a.class:link, a.class:visited {
 }
 
 a.class:hover, a.class:active {
-  background-color: white;
-  color: #6937B6;
+  background-color: #f0f0f0;
+  color: #008be8;
   border-radius: 30px;
   padding: 12px 60px;
-  border-color: #6937B6;
+  border-color: #008be8;
   border-style: solid;
 }
 
