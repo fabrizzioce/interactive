@@ -25,6 +25,8 @@ ul {
   padding: 0;
   width: 50px;
   background-color: #ffffff;
+  float: right;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.10), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 li a{
@@ -40,8 +42,8 @@ li a.active{
 }
 
 li a:hover:not(.active) {
-  background-color: #f0f0f0;
-  color: white;
+  background-color: #eaeaea;
+  color: black;
 }
 
 
