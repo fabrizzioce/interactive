@@ -11,17 +11,17 @@ body {
   background-color: #f0f0f0;
 }
 
-#div {
-  padding: 50px;
-  background-color: #008be8;
-  border-radius: 40px;
-  color: white;
+img {
+  max-width: 58%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 
 a {
   border: none;
-  padding: 10px 55px;
+  padding: 11px 55px;
   border-radius: 30px;
   font-size: 16px;
   text-align: center;
