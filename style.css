@@ -18,7 +18,8 @@ body {
 img{
   max-width: 100%;
   height: auto;
-  margin:20px;
+  display: block;
+  margin: auto;
 }
 
 /* Ordered lists */
@@ -32,17 +33,18 @@ img{
 }
 
 
-
 h2.one{
+  margin-top: 60px;
   margin-left: 25px;
   border-left: 9px solid #C61F69;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 h2.two {
+  margin-top: 10px;
   margin-left: 25px;
   border-left: 9px solid #00C7D7;
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 #about {
