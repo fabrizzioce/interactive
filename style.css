@@ -52,17 +52,23 @@ h2.two {
 
 
 a.class:link, a.class:visited {
-  background-color: #f44336;
+  background-color: #C342B4;
   color: white;
   border-radius: 30px;
-  padding: 14px 25px;
+  padding: 15px 35px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-style: solid;
 }
 
 a.class:hover, a.class:active {
-  background-color: red;
+  background-color: white;
+  color: #00B7C7;
+  border-radius: 30px;
+  padding: 15px 35px;
+  border-color: #00B7C7;
+  border-style: solid;
 }
 
 
