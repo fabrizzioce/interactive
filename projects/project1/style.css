@@ -1,0 +1,67 @@
+/* this is a universal selector. This is used to select all elements, and get rid of all defaults */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f0f0f0;
+}
+
+#div {
+  padding: 50px;
+  background-color: #008be8;
+  border-radius: 40px;
+  color: white;
+}
+
+
+a {
+  border: none;
+  padding: 10px 55px;
+  border-radius: 30px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+
+a.button-colored:link, a.button-colored:visited {
+  background-color: #008be8;
+  color: white;
+  border: 2px solid #008be8;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a.button-colored:hover, a.button-colored:active {
+  background-color: #f0f0f0;
+  color: #008be8;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+a.button-nocolor:link, a.button-nocolor:visited {
+  background-color: #f0f0f0;
+  color: #008be8;
+  border: 2px solid #008be8;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a.button-nocolor:hover, a.button-nocolor:active {
+  background-color: #008be8;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+footer {
+  padding: 85px 0px 50px 0px;
+  text-align: center;
+
+}
