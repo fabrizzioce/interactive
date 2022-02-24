@@ -1,0 +1,116 @@
+/* this is a universal selector. This is used to select all elements, and get rid of all defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Poppins, sans-serif;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #f0f0f0;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 0px 10px 20px 10px;
+  text-align: center;
+}
+
+
+.responsive {
+  padding: 10px 10px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+
+a {
+  border: none;
+  padding: 11px 55px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+
+
+/*Button with a blue background and white hover*/
+a.button-colored:link, a.button-colored:visited {
+  background-color: #008be8;
+  color: white;
+  border: 2px solid #008be8;
+  border-radius: 30px;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a.button-colored:hover, a.button-colored:active {
+  background-color: #f0f0f0;
+  color: #008be8;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/*Button with a white background and blue hover*/
+a.button-nocolor:link, a.button-nocolor:visited {
+  background-color: #f0f0f0;
+  color: #32a852;
+  border: 2px solid #32a852;
+  border-radius: 30px;
+  display: inline-block;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+a.button-nocolor:hover, a.button-nocolor:active {
+  background-color: #32a852;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+footer {
+  padding: 85px 0px 50px 0px;
+  text-align: center;
+
+}
