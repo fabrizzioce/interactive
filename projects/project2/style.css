@@ -1,0 +1,51 @@
+/* this is a universal selector. This is used to select all elements, and get rid of all defaults */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  margin-left: 150px;
+  margin-right: 200px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-image: url(images/bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0;
+}
+
+#div {
+  padding: 50px;
+  background-color: #B7B7B7;
+  border-radius: 40px;
+  color: #3A3A3A;
+}
+
+
+a.class:link, a.class:visited {
+  background-color: #B7B7B7;
+  color: white;
+  border-radius: 30px;
+  padding: 13px 61px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.class:hover, a.class:active {
+  background-color: #D1D3D4;
+  color: #666766;
+  border-radius: 30px;
+  padding: 12px 60px;
+  border-color: #666766;
+  border-style: solid;
+}
+
+
+footer {
+  padding: 85px 0px 50px 0px;
+  text-align: center;
+
+}
