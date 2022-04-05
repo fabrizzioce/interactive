@@ -16,12 +16,23 @@ body {
   background-color: #f0f0f0;
 }
 
-#div {
+.legalmigration {
   padding: 50px;
   background-color: #B7B7B7;
   border-radius: 40px;
   color: #3A3A3A;
+  text-align: left;
 }
+
+.illegalmigration {
+  padding: 50px;
+  background-color: #B7B7B7;
+  border-radius: 40px;
+  color: #3A3A3A;
+  width: 50%;
+  text-align: left;
+}
+
 
 
 a.class:link, a.class:visited {
