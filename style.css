@@ -5,13 +5,27 @@
 }
 
 body {
-  font-family: Poppins, sans-serif;;
+  font-family: Poppins, sans-serif;
 }
 
 #grad1 {
   background-image: linear-gradient(to right, #C342B4,#6877BD,#00B7C7);
   margin:25px,25px,0px,0px;
-  padding:35px;
+  padding:35px 0px 0px 0px;
+  color: #F2F2F2;
+  font-size: 50px
+}
+
+#grad2 {
+  background-image: linear-gradient(to right, #C342B4,#6877BD,#00B7C7);
+  padding:0px 0px 35px 0px;
+  color: #F2F2F2;
+  font-size: 40px
+}
+
+#grad3 {
+  background-image: linear-gradient(to right, #C342B4,#6877BD,#00B7C7);
+  padding:0px 0px 35px 0px;
   color: #F2F2F2;
 }
 
